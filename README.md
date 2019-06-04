@@ -28,3 +28,5 @@
 オプションをつけると、「interactiveモード」なリベースがおこなえます。
 
     git rebase -i [コミット]
+
+### mergeコマンドとrebaseの使い分け
