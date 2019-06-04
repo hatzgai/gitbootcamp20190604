@@ -38,46 +38,40 @@
 
     git rebase -i [コミット]
 
-## git commit
+# git commit
 1.追加・変更したファイルをGitに登録するためのコマンド
 1.commitしない限りレポジトリには反映されない
 
-## gti commit -a　とは
+# gti commit -a　とは
 1.このオプションにより、作業ツリーで変更されたか削除されたファイルを自動的にインデックスにステージしてコミットができる。  
 1.これによりgit addを実行することになくコミットできます
 
-## git branch fix/42
+# git branch fix/42
 1."fix/42"ブランチを生成するコマンド
 1.HEADはmasterに留まったまま
 1.このブランチを使用することで、同時並行で開発を行うことができるため
 　バグ修正や新機能開発などの場面で使用できる
 
-## git reset --hard master
+# git reset --hard master
 1.ブランチをmasterへ強制的にリセットして、ブランチの変更を破棄する
 1.HEADもそのコミットへ移動する
 1.破棄したブランチはgcで2週間で削除される
 
-<<<<<<< HEAD
-## コミット、ステージ済みコミット
-=======
-#git mearge fix/42
+# git mearge fix/42
  現在のブランチ(HEADの指している場所)へ、他のブランチの更新を取り込む処理
 
-11. コミット、ステージ済みコミット
->>>>>>> 10d867d0262fd1049de2401f4b3eeff858fa43e7
-
-## git merge --ff-only fix/42
+# git merge --ff-only fix/42
 1.ファーストフォワード可能な場合に、現在のHEADのmasterをfix/42まで進めるためのコマンド
 1.ブランチがフィードフォワードができない状態ではエラーとなる
 
-## git remote add; git fetch --all
+# git remote add; git fetch --all
 1.リモートAで作業しているときにリモートBの内容をマージしたいときに仕様するコマンド
 1.リモートBをaddし、その内容をすべてフェッチすることでローカルのレポジトリに内容を取り込む
 
-## git push
+# git push
 1.ローカルの変更内容をリモートに反映する
 
-## git clone
+# git clone
 1.リモートレポジトリをローカルの指定したディレクトに複製するコマンド
 1.ローカルレポジトリをコピーすることもできる
 
